@@ -1,0 +1,107 @@
+// btn
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  transition: background-color .2s linear, color .2s linear;
+  column-gap: 10px;
+  height: 55px;
+  padding-left: 24px;
+  padding-right: 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  @media(max-width: 991px){
+    height: 40px;
+    font-size: 14px;
+  }
+
+  &--lg {
+    height: 65px;
+    @media(max-width: 991px){
+      height: 50px;
+    }
+  }
+  &--white {
+    background-color: #fff;
+  }
+  &--gold {
+    border: 1px solid var(--dark-gold);
+    color: var(--dark-gold);
+    &:hover {
+      background-color: var(--dark-gold);
+      color: #fff;
+    }
+  }
+  svg {
+    width: 16px;
+    height: 16px;
+    stroke: #000;
+  }
+  &.button-sm-100 {
+    @media(max-width: 420px){
+      width: 100%;
+    }
+  }
+}
+.headerSearchBtn {
+  height: fit-content;
+  padding-right: 34px;
+  padding-left: 34px;
+  flex-shrink: 0;
+  @media(max-width: 1199px){
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media(max-width: 991px){
+    padding-right: 12px;
+  }
+  @media(max-width: 575px){
+    padding-right: 0;
+  }
+  &:hover {
+    svg {
+      stroke: var(--secondary);
+    }
+  }
+  svg {
+    fill: transparent;
+    stroke-width: 2px;
+    stroke: #3B3C4A;
+    width: 24px;
+    height: 24px;
+    @media(max-width: 991px){
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.searchBtnClear {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s linear;
+  img {
+    width: 16px;
+  }
+  &:hover {
+    opacity: .7;
+  }
+}
+.searchBtnAction {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .2s linear;
+  img {
+    width: 16px;
+  }
+  &:hover {
+    opacity: .7;
+  }
+}

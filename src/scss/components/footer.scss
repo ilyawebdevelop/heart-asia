@@ -1,0 +1,44 @@
+// Footer
+.footer {
+  background-color: var(--black);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media(max-width: 767px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &Logo {
+    @media(max-width: 767px){
+      margin-bottom: 40px;
+    }
+    img {
+      width: 252px;
+    }
+    &:hover {
+      opacity: .85;
+    }
+  }
+  &Mail {
+    color: #fff;  
+    font-size: 24px;  
+    line-height: 160%; 
+    @media(max-width: 767px){
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &:hover {
+      opacity: .7;
+    }
+  }
+  .socials {
+    ul {
+      li {
+        a {
+          &:hover {
+            opacity: .7;
+          }
+        }
+      }
+    }
+  }
+}

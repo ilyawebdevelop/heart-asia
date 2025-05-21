@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<title>Статья</title>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<!-- Header -->
+<header class="header" id="header">
+  <div class="headerT d-none d-lg-block">
+    <div class="container">
+      <div class="d-flex justify-content-center position-relative">
+        <nav class="headerExchange">
+          <ul>
+            <li>
+              <div class="headerExchangeName">
+                USD
+              </div>
+              <img src="img/admin/exchange/icon-1.svg" alt="icon" class="headerExchangeIcon">
+              <div class="headerExchangeText">
+                83,56 RUB
+              </div>
+            </li>
+            <li>
+              <div class="headerExchangeName">
+                EUR
+              </div>
+              <img src="img/admin/exchange/icon-2.svg" alt="icon" class="headerExchangeIcon">
+              <div class="headerExchangeText">
+                90,41 RUB
+              </div>
+            </li>
+            <li>
+              <div class="headerExchangeName">
+                MNT
+              </div>
+              <img src="img/admin/exchange/icon-3.svg" alt="icon" class="headerExchangeIcon">
+              <div class="headerExchangeText">
+                0,02 RUB
+              </div>
+            </li>
+            <li>
+              <div class="headerExchangeName">
+                CNY
+              </div>
+              <img src="img/admin/exchange/icon-4.svg" alt="icon" class="headerExchangeIcon">
+              <div class="headerExchangeText">
+                11,18 RUB
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="d-flex gap-1 langBox">
+          <a class="langItem active" href="#">RU</a>
+          <a class="langItem" href="#">MN</a>
+          <a class="langItem" href="#">CH</a>
+          <a class="langItem" href="#">EN</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="headerC d-none d-lg-block">
+    <div class="container">
+      <div class="headerBaner position-relative" style="background-image: url('img/admin/header/bg.jpg');">
+        <div class="socials headerSocials">
+          <ul>
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-1.svg" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-2.svg" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-3.svg" alt="icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" class="headerLogo logo">
+          <img class="mx-auto" src="img/admin/header/logo.svg" alt="logo">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="headerB headerNavW--border-b-sm">
+    <div class="container">
+      <div class="headerNavW headerNavW--border-b d-flex align-items-center justify-content-between">
+
+        <div class="hamburger" id="toggle">
+          <div class="top-bun"></div>
+          <div class="meat"></div>
+          <div class="bottom-bun"></div>
+        </div><!-- /Hamburger Menu -->
+
+        <a href="#" class="fixedLogo">
+          <img class="d-none d-lg-block" src="img/admin/header/logo-fixed.svg" alt="logo">
+          <img class="d-block d-lg-none" src="img/admin/header/logo-sm.svg" alt="logo">
+        </a>
+
+        <nav class="headerNav">
+          <div class="headerNavHead d-flex d-lg-none align-items-center justify-content-between">
+            <button class="headerNavClose">
+              <img src="img/icons/close.svg" alt="">
+            </button>
+            <a href="#" class="fixedLogo">
+              <img src="img/admin/header/logo-sm.svg" alt="logo">
+            </a>
+            <div class="headerLangSelectMob">
+              <select name="lang-select" id="lang-select">
+                <option value="1">
+                  RU
+                </option>
+                <option value="2">
+                  EN
+                </option>
+                <option value="3">
+                  ESP
+                </option>
+              </select>
+            </div>
+          </div>
+          <ul class="d-flex flex-column flex-lg-row justify-content-between">
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#">новости</a></li>
+            <li><a href="#">история</a></li>
+            <li><a href="#">культура</a></li>
+            <li><a href="#">общество</a></li>
+            <li><a href="#">экология</a></li>
+            <li class="has-submenu d-none d-lg-block">
+              <a href="#">Ещё</a>
+              <ul class="submenu">
+                <li><a href="#">новости</a></li>
+                <li><a href="#">история</a></li>
+                <li><a href="#">культура</a></li>
+                <li><a href="#">общество</a></li>
+                <li><a href="#">экология экология экология</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center gap-5 d-lg-none pt-3 mt-4">
+            <div class="d-flex gap-4 flex-column">
+              <div class="d-flex align-items-center gap-1">
+                <img src="img/admin/exchange/icon-1.svg" alt="icon" class="headerExchangeIcon">
+                <div class="headerExchangeText">
+                  83,56 RUB
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <img src="img/admin/exchange/icon-2.svg" alt="icon" class="headerExchangeIcon">
+                <div class="headerExchangeText">
+                  0,02 RUB
+                </div>
+              </div>
+            </div>
+            <div class="d-flex gap-4 flex-column">
+              <div class="d-flex align-items-center gap-1">
+                <img src="img/admin/exchange/icon-3.svg" alt="icon" class="headerExchangeIcon">
+                <div class="headerExchangeText">
+                  90,41 RUB
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <img src="img/admin/exchange/icon-4.svg" alt="icon" class="headerExchangeIcon">
+                <div class="headerExchangeText">
+                  11,18 RUB
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="headerBanerMobile d-block d-lg-none">
+            <img src="img/admin/header/baner-sm.jpg" alt="image">
+          </a>
+        </nav>
+
+        <button class="headerSearchBtn" type="button">
+          <svg>
+            <use xlink:href="img/icons/icons.svg#search"></use>
+          </svg>
+        </button>
+
+        <div class="searchW searchW--header">
+          <input class="searchInput w-100" type="search" placeholder="Поиск">
+          <button class="searchBtnClear">
+            <img src="img/icons/delete.svg" alt="icon">
+          </button>
+          <button class="searchBtnAction">
+            <img src="img/icons/search.svg" alt="icon">
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+		<main class="main">		
+			<section class="breadcrumbsSect py-0" id="breadcrumbs">
+  <div class="container">
+    <div class="breadcrumbs">
+      <ul>
+        <li>
+          <a href="#">
+            Главная
+          </a>
+        </li>
+        <li>
+          <span class="sep">
+            /
+          </span>
+        </li>
+        <li>
+          <a href="#">
+            Компания
+          </a>
+        </li>
+        <li>
+          <span class="sep">
+            /
+          </span>
+        </li>
+        <li>
+          <span>
+            Юбилей думы Иркутска: 30 лет командной работы в интересах города
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+			<section class="sect pt-4 pb-12 article">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="pr-3">
+
+          <a href="#" class="newsCardTag mb-3">
+            Геополитика
+          </a>
+          <h1 class="h1 mb-3 fw-bold">
+            В Минобороны рассказали о невероятном подвиге бойца из Бурятии на СВО
+          </h1>
+          <div class="d-flex align-items-center newsCardInfo newsCardInfo--gray">
+            <div class="newsCardPerson">
+              <img src="img/admin/news/person.jpg" alt="icon">
+              <span class="fw-bold">Петр Нилов</span>
+            </div>
+            <span>20 мая, 2025</span>
+            <span>20:19</span>
+          </div>
+          <img class="rounded-2px mt-4 mb-4 w-100" src="img/admin/article/image-1.png" alt="image">
+          <div class="text--lg mb-4 color--gray2">
+            В официальном telegram-канале Минобороны России рассказали о подвиге Михаила Беккерова – участника
+            специальной военной операции из Бурятии. Наш земляк, действуя в составе подразделения мотострелков, выполнял
+            задачи по эвакуации получивших ранения российских военнослужащих с линии боевого соприкосновения.
+          </div>
+          <div class="content color--gray2 mb-4 mb-lg-5">
+            <p>
+              В официальном telegram-канале Минобороны России рассказали о подвиге Михаила Беккерова – участника
+              специальной военной операции из Бурятии. Наш земляк, действуя в составе подразделения мотострелков,
+              выполнял задачи по эвакуации получивших ранения российских военнослужащих с линии боевого соприкосновения.
+            </p>
+            <p>
+              Подразделения противника, стремясь отбить утраченные рубежи, неоднократно предпринимали попытки
+              контрнаступления на позиции Вооружённых сил РФ.
+            </p>
+            <p>
+              - В ходе одного из боестолкновений наших подразделений с украинскими боевиками рядовой Беккеров, несмотря
+              на не прекращавшиеся обстрелы и рискуя жизнью, оказал неотложную медицинскую помощь 10 раненым российским
+              военнослужащим, после чего эвакуировал их из-под шквального огня в безопасное место, – отметили в
+              министерстве обороны.
+            </p>
+            <p>
+              После боя рядовой Михаил, погрузив раненых на эвакуационный автомобиль, оперативно организовал их
+              перевозку в полевой медицинский госпиталь. Там нашим бойцам оперативно оказали квалифицированную
+              медицинскую помощь. Мужественные и самоотверженные действия рядового Михаила Беккерова позволили спасти
+              жизнь российским военнослужащим, отметили в оборонном ведомстве.
+            </p>
+            <h4>
+              Мужественные и самоотверженные действия рядового
+            </h4>
+            <p>
+              После боя рядовой Михаил, погрузив раненых на эвакуационный автомобиль, оперативно организовал их
+              перевозку в полевой медицинский госпиталь. Там нашим бойцам оперативно оказали квалифицированную
+              медицинскую помощь. Мужественные и самоотверженные действия рядового Михаила Беккерова позволили спасти
+              жизнь российским военнослужащим, отметили в оборонном ведомстве.
+            </p>
+            <blockquote>
+              Подразделения противника, стремясь отбить утраченные рубежи, неоднократно предпринимали попытки
+              контрнаступления на позиции Вооружённых сил РФ.
+            </blockquote>
+            <img src="img/admin/article/image-2.png" alt="image" class="w-100 rounded-2px">
+          </div>
+
+          <div class="d-flex align-items-center gap-3 mt-4 mt-lg-5 mb-5">
+            <span class="fw-bold">Поделиться:</span>
+            <div class="socials articleSocials">
+              <ul class="d-flex align-items-center gap-3">
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <img src="img/admin/socials/icon-1-gold.svg" alt="icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <img src="img/admin/socials/icon-2-gold.svg" alt="icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <img src="img/admin/socials/icon-3-gold.svg" alt="icon">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="nofollow">
+                    <img src="img/admin/socials/icon-4-gold.svg" alt="icon">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="sidebarTitle mb-4 pb-3">
+            Ранее по этой теме
+          </div>
+          <div class="newsCardAction mb-5 pb-3">
+            <a href="#" class="newsCardTag mb-3">
+              Геополитика
+            </a>
+            <div class="h1 mb-3 fw-bold">
+              Алексей Цыденов вручил легендарной Цэгмид медаль за заслуги перед Бурятией
+            </div>
+            <div class="d-flex align-items-center newsCardInfo newsCardInfo--gray">
+              <div class="newsCardPerson">
+                <img src="img/admin/news/person.jpg" alt="icon">
+                <span class="fw-bold">Петр Нилов</span>
+              </div>
+              <span>20 мая, 2025</span>
+              <span>20:19</span>
+            </div>
+            <img class="w-100 mt-4 mb-4 rounded-2px" src="img/admin/article/image-1.png" alt="image">
+            <div class="text--lg mb-4 color--gray2">
+              Глава Бурятии Алексей Цыденов вручил Цэгмид медаль «За заслуги перед Республикой Бурятия», подчеркнув
+              важность монгольской поддержки в годы войны. - Когда началась Великая Отечественная война, Монголия первой
+              встала рядом с нашей страной и оказала значительную помощь, — отметил Цыденов.
+            </div>
+            <div class="content content--hidden color--gray2 mb-3">
+              <p>
+                В Улан-Баторе побывала делегация Бурятии с главой республики Алексеем Цыденовым. В преддверии Дня Победы
+                в
+                Российском центре науки и культуры прошло торжественное мероприятие, посвященное 80-летию праздника. В
+                рамках празднования открылись три выставки, отражающие значимые аспекты истории: трагедию народов,
+                помощь
+                Монголии Советскому Союзу и выставка работ известного монгольского художника-баталиста. (возрастное
+                ограничение: 6+)
+              </p>
+              <p>
+                Кульминацией стала премьера документального фильма «Фронт Цэгмид — это живая легенда» (возрастное
+                ограничение: 6+), созданного бурятским режиссером Олегом Юмовым. Фильм рассказывает о первой официальной
+                помощи, оказанной Монголией Советскому Союзу в борьбе с фашизмом. На премьере присутствовали выдающиеся
+                гости, включая героиню фильма Фронт легендарную Цэгмид и участницу боев на Халхин-Голе Цэрэнгийн
+                Чимэдцэрэн. Глава Бурятии Алексей Цыденов вручил Цэгмид медаль «За заслуги перед Республикой Бурятия»,
+                подчеркнув важность монгольской поддержки в годы войны.
+              </p>
+              <p>
+                - В ходе одного из боестолкновений наших подразделений с украинскими боевиками рядовой Беккеров,
+                несмотря
+                на не прекращавшиеся обстрелы и рискуя жизнью, оказал неотложную медицинскую помощь 10 раненым
+                российским
+                военнослужащим, после чего эвакуировал их из-под шквального огня в безопасное место, – отметили в
+                министерстве обороны.
+              </p>
+              <p>
+                После боя рядовой Михаил, погрузив раненых на эвакуационный автомобиль, оперативно организовал их
+                перевозку в полевой медицинский госпиталь. Там нашим бойцам оперативно оказали квалифицированную
+                медицинскую помощь. Мужественные и самоотверженные действия рядового Михаила Беккерова позволили спасти
+                жизнь российским военнослужащим, отметили в оборонном ведомстве.
+              </p>
+              <h4>
+                Мужественные и самоотверженные действия рядового
+              </h4>
+              <p>
+                После боя рядовой Михаил, погрузив раненых на эвакуационный автомобиль, оперативно организовал их
+                перевозку в полевой медицинский госпиталь. Там нашим бойцам оперативно оказали квалифицированную
+                медицинскую помощь. Мужественные и самоотверженные действия рядового Михаила Беккерова позволили спасти
+                жизнь российским военнослужащим, отметили в оборонном ведомстве.
+              </p>
+              <blockquote>
+                Подразделения противника, стремясь отбить утраченные рубежи, неоднократно предпринимали попытки
+                контрнаступления на позиции Вооружённых сил РФ.
+              </blockquote>
+              <img src="img/admin/article/image-2.png" alt="image" class="w-100 rounded-2px">
+            </div>
+            <div class="button button--gold button-action-text">
+              Читать далее
+            </div>
+          </div>
+          <div class="sidebarTitle mb-4 pb-3">
+            Другие новости по теме
+          </div>
+          <div class="mb-4 pb-2">
+            <div class="newsCard--Text">
+  <div class="newsCard" style="background-image: url('img/admin/news/image-1.jpg');">
+    <a class="newsCardLink" href="#"></a>
+    <a href="#" class="newsCardTag mb-3">
+      История
+    </a>
+    <h2 class="newsCardTitle h2 mb-2 mb-lg-4 fw-bold">
+      <a href="#">История Монголии в соседстве с Россией</a>
+    </h2>
+    <div class="d-flex align-items-center newsCardInfo flex-wrap">
+      <div class="newsCardPerson">
+        <img src="img/admin/news/person.jpg" alt="icon">
+        <span class="fw-bold">Петр Нилов</span>
+      </div>
+      <span>20 мая, 2025</span>
+      <span>20:19</span>
+    </div>
+
+  </div>
+  <p class="newsCardDescr">
+    Глава Бурятии Алексей Цыденов вручил Цэгмид медаль «За заслуги перед Республикой Бурятия», подчеркнув важность
+    монгольской поддержки в годы войны. - Когда началась Великая Отечественная война, Монголия первой встала рядом с
+    нашей страной и оказала значительную помощь, — отметил Цыденов.
+  </p>
+</div>
+          </div>
+          <div class="mb-4 pb-2">
+            <div class="newsCard--Text">
+  <div class="newsCard" style="background-image: url('img/admin/news/image-2.png');">
+    <a class="newsCardLink" href="#"></a>
+    <a href="#" class="newsCardTag mb-3">
+      Общество
+    </a>
+    <h2 class="newsCardTitle h2 mb-2 mb-lg-4 fw-bold">
+      <a href="#">История Монголии в соседстве с Россией</a>
+    </h2>
+    <div class="d-flex align-items-center newsCardInfo flex-wrap">
+      <div class="newsCardPerson">
+        <img src="img/admin/news/person.jpg" alt="icon">
+        <span class="fw-bold">Петр Нилов</span>
+      </div>
+      <span>20 мая, 2025</span>
+      <span>20:19</span>
+    </div>
+
+  </div>
+  <p class="newsCardDescr">
+    Глава Бурятии Алексей Цыденов вручил Цэгмид медаль «За заслуги перед Республикой Бурятия», подчеркнув важность
+    монгольской поддержки в годы войны. - Когда началась Великая Отечественная война, Монголия первой встала рядом с
+    нашей страной и оказала значительную помощь, — отметил Цыденов.
+  </p>
+</div>
+          </div>
+          <div class="mb-4 pb-2">
+            <div class="newsCard--Text">
+  <div class="newsCard" style="background-image: url('img/admin/news/image-3.png');">
+    <a class="newsCardLink" href="#"></a>
+    <a href="#" class="newsCardTag mb-3">
+      Общество
+    </a>
+    <h2 class="newsCardTitle h2 mb-2 mb-lg-4 fw-bold">
+      <a href="#">В Бурятии засняли таинственного зверя</a>
+    </h2>
+    <div class="d-flex align-items-center newsCardInfo flex-wrap">
+      <div class="newsCardPerson">
+        <img src="img/admin/news/person.jpg" alt="icon">
+        <span class="fw-bold">Петр Нилов</span>
+      </div>
+      <span>20 мая, 2025</span>
+      <span>20:19</span>
+    </div>
+  </div>
+  <p class="newsCardDescr">
+    В ФГБУ «Заповедное Подлеморье» рассказали о таинственном звере, которого увидели недавно в устье реки Фролиха во Фролихинском заказнике. Его запечатлел на камеру государственный инспектор Виктор Степанов. Он заснял животное, увлечённого охотой.
+  </p>
+</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="sidebar mt-5 pt-4 mt-lg-0 pt-lg-0">
+  <div class="sidebarTitle mb-6 mb-6-sm-3">Самое читаемое</div>
+  <div class="mb-6 mb-6-sm-3">
+    <div class="newsCard newsCard--sidebar">
+  <a href="#" class="newsCardTag mb-3">
+    Общество
+  </a>
+  <h3 class="newsCardTitle h3 mb-3 pb-1 fw-bold">
+    <a href="#">Что не так с памятником князю Чепчугею?</a>
+  </h3>
+  <div class="d-flex align-items-center newsCardInfo flex-wrap">
+    <div class="newsCardPerson">
+      <img src="img/admin/news/person.jpg" alt="icon">
+      <span class="fw-bold">Петр Нилов</span>
+    </div>
+    <span>20 мая, 2025</span>
+    <span>20:19</span>
+  </div>
+  <p class="newsCardDescr">
+    Торжественное открытие скульптуры состоялось 12 сентября в селе Баяндай. Мраморный памятник увековечивает память
+    великого предка, его мужество и преданность своей земле. Князь Чепчугей — герой бурятского народа или эхиритского
+    рода.
+  </p>
+</div>
+  </div>
+  <div class="mb-6 mb-6-sm-3">
+    <div class="newsCard newsCard--sidebar">
+  <a href="#" class="newsCardTag mb-3">
+    Общество
+  </a>
+  <h3 class="newsCardTitle h3 mb-3 pb-1 fw-bold">
+    <a href="#">Пасха в Бурятии напомнила о перспективах и проблемах русского православия</a>
+  </h3>
+  <div class="d-flex align-items-center newsCardInfo flex-wrap">
+    <div class="newsCardPerson">
+      <img src="img/admin/news/person.jpg" alt="icon">
+      <span class="fw-bold">Петр Нилов</span>
+    </div>
+    <span>20 мая, 2025</span>
+    <span>20:19</span>
+  </div>
+  <p class="newsCardDescr">
+    В минувшее воскресенье христиане России торжественно отпраздновали Пасху. Пасха, или Светлое Христово Воскресение –
+    древнейший и самый важный праздник христианства, установленный в честь чудесного воскрешения Иисуса Христа после
+    мученической казни.
+  </p>
+</div>
+  </div>
+  <div class="mb-6 mb-6-sm-3">
+    <div class="newsCard newsCard--sidebar">
+  <a href="#" class="newsCardTag mb-3">
+    Общество
+  </a>
+  <h3 class="newsCardTitle h3 mb-3 pb-1 fw-bold">
+    <a href="#">Что не так с памятником князю Чепчугею?</a>
+  </h3>
+  <div class="d-flex align-items-center newsCardInfo flex-wrap">
+    <div class="newsCardPerson">
+      <img src="img/admin/news/person.jpg" alt="icon">
+      <span class="fw-bold">Петр Нилов</span>
+    </div>
+    <span>20 мая, 2025</span>
+    <span>20:19</span>
+  </div>
+  <p class="newsCardDescr">
+    Торжественное открытие скульптуры состоялось 12 сентября в селе Баяндай. Мраморный памятник увековечивает память
+    великого предка, его мужество и преданность своей земле. Князь Чепчугей — герой бурятского народа или эхиритского
+    рода.
+  </p>
+</div>
+  </div>
+  <div class="mb-6 mb-6-sm-3">
+    <div class="newsCard newsCard--sidebar">
+  <a href="#" class="newsCardTag mb-3">
+    Общество
+  </a>
+  <h3 class="newsCardTitle h3 mb-3 pb-1 fw-bold">
+    <a href="#">Пасха в Бурятии напомнила о перспективах и проблемах русского православия</a>
+  </h3>
+  <div class="d-flex align-items-center newsCardInfo flex-wrap">
+    <div class="newsCardPerson">
+      <img src="img/admin/news/person.jpg" alt="icon">
+      <span class="fw-bold">Петр Нилов</span>
+    </div>
+    <span>20 мая, 2025</span>
+    <span>20:19</span>
+  </div>
+  <p class="newsCardDescr">
+    В минувшее воскресенье христиане России торжественно отпраздновали Пасху. Пасха, или Светлое Христово Воскресение –
+    древнейший и самый важный праздник христианства, установленный в честь чудесного воскрешения Иисуса Христа после
+    мученической казни.
+  </p>
+</div>
+  </div>
+  <div class="mb-6 mb-6-sm-3">
+    <div class="newsCard newsCard--sidebar">
+  <a href="#" class="newsCardTag mb-3">
+    Общество
+  </a>
+  <h3 class="newsCardTitle h3 mb-3 pb-1 fw-bold">
+    <a href="#">Что не так с памятником князю Чепчугею?</a>
+  </h3>
+  <div class="d-flex align-items-center newsCardInfo flex-wrap">
+    <div class="newsCardPerson">
+      <img src="img/admin/news/person.jpg" alt="icon">
+      <span class="fw-bold">Петр Нилов</span>
+    </div>
+    <span>20 мая, 2025</span>
+    <span>20:19</span>
+  </div>
+  <p class="newsCardDescr">
+    Торжественное открытие скульптуры состоялось 12 сентября в селе Баяндай. Мраморный памятник увековечивает память
+    великого предка, его мужество и преданность своей земле. Князь Чепчугей — герой бурятского народа или эхиритского
+    рода.
+  </p>
+</div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+		</main>
+		<!-- Footer -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between">
+      <a href="#" class="footerLogo logo">
+        <img src="img/admin/footer/logo.svg" alt="logo">
+      </a>
+      <div class="d-flex align-items-center gap-3">
+        <div class="socials footerSocials">
+          <ul class="d-flex align-items-center gap-3">
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-1.svg" alt="icon">
+              </a>
+            </li>       
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-3.svg" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="nofollow">
+                <img src="img/admin/socials/icon-2.svg" alt="icon">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a href="mailto:asiaheart@mail.ru" class="footerMail">asiaheart@mail.ru</a>
+      </div>
+    </div>
+  </div>
+</footer>
+		<!-- modal -->
+<!-- order -->
+<div class="modal fade modal-order" id="modal-order" tabindex="-1" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-target="#modal-order">
+        <img src="img/icons/close-white.svg" alt="icon">
+      </button>
+    </div>
+  </div>
+</div>
+	</div>
+	
+	<script src="js/app.min.js"></script>
+
+
+	
+</body>
+
+</html>
+
+
+
+

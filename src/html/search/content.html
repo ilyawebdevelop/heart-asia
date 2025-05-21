@@ -1,0 +1,39 @@
+<section class="sect pt-0 pt-lg-3 pb-12 article">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="pr-3">
+          <h1 class="h1 fw-bold mb-2 mb-lg-4 pb-1">
+            Поиск
+          </h1>
+          <div class="searchW mb-4">
+            <input class="searchInput w-100" type="search" placeholder="Поиск">
+            <button class="searchBtnClear">
+              <img src="@img/icons/delete.svg" alt="icon">
+            </button>
+            <button class="searchBtnAction">
+              <img src="@img/icons/search.svg" alt="icon">
+            </button>
+          </div>
+          <div class="mb-6">
+            @@include('../news/card-1.html',{})
+          </div>
+          <div class="mb-6">
+            @@include('../news/card-2.html',{})
+          </div>
+          <div class="mb-6 mb-6-sm-3">
+            @@include('../news/card-3.html',{})
+          </div>
+        </div>
+        <a href="#" class="button button--gold">
+          Больше новостей
+        </a>
+      </div>
+      <div class="col-lg-4">
+        @@include('../news/sidebar.html',{})
+      </div>
+    </div>
+
+  </div>
+</section>

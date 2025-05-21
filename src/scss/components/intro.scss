@@ -1,0 +1,52 @@
+.intro {
+  .container {
+    @media(max-width: 575px) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  &Slider {
+    .navArrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 1;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 14px;
+        @media(max-width: 991px){
+          width: 10px;
+        }
+      }
+
+      &:hover {
+        opacity: .7;
+      }
+
+      &Prev {
+        left: 23px;
+        @media(max-width: 991px){
+          left: 5px;
+        }
+        @media(max-width: 575px){
+          left: 0;
+        }
+      }
+
+      &Next {
+        right: 23px;
+        @media(max-width: 991px){
+          right: 5px;
+        }
+        @media(max-width: 575px){
+          right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+<section class="intro pt-0 pb-0">
+  <div class="container">
+    <div class="swiper introSlider">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide introSlide">
+          @@include('../news/card-lg-1.html',{})
+        </div>
+        <div class="swiper-slide introSlide">
+          @@include('../news/card-lg-2.html',{})
+        </div>
+        <div class="swiper-slide introSlide">
+          @@include('../news/card-lg-1.html',{})
+        </div>
+
+      </div>
+      <div class="navArrowW">
+        <button class="navArrow navArrowPrev">
+          <img src="@img/icons/arrow-prev.svg" alt="arrow">
+        </button>
+        <button class="navArrow navArrowNext">
+          <img src="@img/icons/arrow-next.svg" alt="arrow">
+        </button>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>

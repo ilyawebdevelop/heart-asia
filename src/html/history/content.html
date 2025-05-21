@@ -1,0 +1,60 @@
+<section class="sect pt-0 pb-12 article">
+  <div class="container">
+    <div class="row mb-6">
+      <div class="col">
+        <h1 class="h1 fw-bold mb-4 pb-1">
+          История
+        </h1>
+        
+        <div class="swiper introSlider">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide introSlide">
+              @@include('../news/card-lg-1.html',{})
+            </div>
+            <div class="swiper-slide introSlide">
+              @@include('../news/card-lg-2.html',{})
+            </div>
+            <div class="swiper-slide introSlide">
+              @@include('../news/card-lg-1.html',{})
+            </div>
+
+          </div>
+          <div class="navArrowW">
+            <button class="navArrow navArrowPrev">
+              <img src="@img/icons/arrow-prev.svg" alt="arrow">
+            </button>
+            <button class="navArrow navArrowNext">
+              <img src="@img/icons/arrow-next.svg" alt="arrow">
+            </button>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="pr-3">
+
+          <div class="mb-6">
+            @@include('../news/card-1.html',{})
+          </div>
+          <div class="mb-6">
+            @@include('../news/card-2.html',{})
+          </div>
+          <div class="mb-6 mb-6-sm-3">
+            @@include('../news/card-3.html',{})
+          </div>
+
+        </div>
+        <a href="#" class="button button--gold">
+          Больше новостей
+        </a>
+
+      </div>
+      <div class="col-lg-4">
+        @@include('../news/sidebar.html',{})
+      </div>
+    </div>
+  </div>
+</section>
